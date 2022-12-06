@@ -1,0 +1,21 @@
+.itemWrap 클래스에
+
+flex-wrap: wrap; 추가
+
+
+.item 클래스에
+
+margin-bottom: 10px추가 
+
+
+.textBox_name 클래스와 .textBox_price클래스에서
+
+transform: translateY(50px)를 이용해서 name과 price의 위치를 아래로 옮김
+
+
+
+.item:hover .textBox__name클래스와 .item:hover .textBox__price클래스에
+
+transition: all 0.4s ease-in-out 과  
+transition: all 0.4s ease-in-out 0.15s를 각각 추가시켰다. 
+

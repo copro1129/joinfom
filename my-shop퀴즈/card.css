@@ -8,21 +8,25 @@ html, body {
 }
 
 .itemWrap {
-    display: flex;
+/*     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: flex-start; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 7px 7px;
     
 }
 
 .item {
-    width: calc(25% - 7px);
+/*     width: calc(25% - 7px); */
     aspect-ratio: 6/5;
     position: relative;
     overflow: hidden;
     margin-bottom: 10px;
-    border-radius: 5px;
+/*     border-radius: 5px; */
 }
 
 .imgBox {

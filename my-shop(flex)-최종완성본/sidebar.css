@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Jua&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Noto Sans KR", "돋움", sans-serif;
+}
+
+
+html,
+body{
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.sidebar{
+  width: 170px;
+}
+
+
+.mainMenu{
+  width: 100%;
+  border-radius: 5px;
+  background-color: orange;
+  padding: 10px 15px;
+}
+
+.mainMenu ul {
+  padding: 0px;
+  display: block;
+
+}
+
+.mainMenu ul li {
+  display: inline-block;
+  list-style: none;
+  border-radius: 10px;
+  width: 100px;
+  transition: all 0.3s ease-in-out;
+  
+}
+
+.mainMenu ul li a{
+  display: block;
+  padding: 10px;
+  color: white;
+  border-radius: 20px;
+  transition: all 0.3s ease-in-out;
+  
+}
+
+
+
+.mainMenu ul li a:hover{
+  transform: translateX(20px);
+  background-color: coral;
+ 
+}
+
+
+
+
+.writeBtnBox {
+  margin-top: 10px;
+}
+
+.writeBtn {
+  
+  width: 100%;
+  background: #000000;
+  border: 1px solid #000000;
+  color: #ffffff;
+  padding: 10px 20px;
+  text-align: left;
+  font-size: 16px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.text_name{
+  display: inline-block;
+  transform: translateX(-18px);
+}
+
+
+.writeBtn:hover { 
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+
+.writeBtn .arrow{
+  display: inline-block;
+  transition: all 0.3s ease-in-out;
+}
+
+.writeBtn:hover .arrow {
+  transform: translateX(50px);
+}
+
+
+
